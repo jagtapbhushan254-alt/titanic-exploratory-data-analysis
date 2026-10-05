@@ -140,42 +140,50 @@ titanic-exploratory-data-analysis/
 └── README.md
 ```
 
-## 🚀 Getting Started
+ ## 🚀 Getting Started
 
 ### 1. Clone the Repository
-   
-   git clone https://github.com/jagtapbhushan254-alt/titanic-exploratory-data-analysis.git
+
+```bash
+git clone https://github.com/jagtapbhushan254-alt/titanic-exploratory-data-analysis.git
 cd titanic-exploratory-data-analysis
+```
 
 ### 2. Install Dependencies
 
-   pip install -r requirements.txt
-   
+```bash
+pip install -r requirements.txt
+```
+
 ### 3. Launch Jupyter Notebook
 
+```bash
 jupyter notebook
-
-Open Titanic_EDA_Analysis.ipynb and execute the notebook cells sequentially.
+```
 
 ## 🔮 Future Work
 
 Potential extensions of this project include:
 
-Develop a Titanic survival prediction model
-Compare Logistic Regression and Random Forest
-Evaluate models using appropriate classification metrics
-Perform additional feature engineering
-Analyze model feature importance and interpretability
+- Develop a Titanic survival prediction model
+- Compare Logistic Regression and Random Forest
+- Evaluate models using appropriate classification metrics
+- Perform additional feature engineering
+- Analyze model feature importance and interpretability
+
 
 ## 🎓 Skills Demonstrated
 
-Data Analysis
+### Data Analysis
+
 Data Cleaning • Exploratory Data Analysis • Missing-Value Handling • Statistical Analysis
 
-Python
+### Python
+
 Pandas • NumPy • Matplotlib • Seaborn
 
-Analytical Skills
+### Analytical Skills
+
 Pattern Identification • Feature Relationships • Data Visualization • Data Interpretation
 
 ## 📌 Project Context
