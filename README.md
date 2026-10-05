@@ -1,47 +1,90 @@
-# Titanic EDA Analysis
+Titanic — Exploratory Data Analysis
 
-## Project Overview
-This project performs Exploratory Data Analysis (EDA) on the Titanic dataset to identify factors influencing passenger survival.
+An exploratory data analysis project investigating the factors associated with passenger survival using the Titanic dataset.
 
-## Technologies Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+The project follows a structured analytical workflow covering data cleaning, exploratory analysis, visualization, and interpretation of passenger-level patterns.
 
-## Key Insights
-- Female passengers had significantly higher survival rates.
-- First-class passengers survived more often.
-- Family size influenced survival probability.
+🎯 Objectives
+Understand the structure and quality of the Titanic dataset
+Identify factors associated with passenger survival
+Analyze relationships between demographic and socioeconomic variables
+Handle missing and inconsistent data
+Communicate analytical findings through effective visualizations
 
-## Key Findings
+🛠️ Technologies
+Python
+Pandas — data manipulation and analysis
+NumPy — numerical operations
+Matplotlib — data visualization
+Seaborn — statistical visualization
+Jupyter Notebook — interactive analysis
 
-1. **Overall Survival Rate**
-   - Approximately **38%** of the 891 passengers survived.
+🔎 Analysis Workflow
 
-2. **Sex Was the Strongest Predictor**
-   - Female survival rate: **~74%**
-   - Male survival rate: **~19%**
+1. Data Understanding
+Dataset dimensions and structure
+Data types and descriptive statistics
+Unique-value analysis
+Missing-value assessment
 
-3. **Passenger Class Had a Major Impact**
-   - 1st Class: **~63%** survived
-   - 2nd Class: **~47%** survived
-   - 3rd Class: **~24%** survived
+3. Data Cleaning
+Identified missing values in key variables
+Median imputation for missing Age values
+Removed Cabin due to its high proportion of missing values
+Prepared variables for exploratory analysis
 
-4. **Children Had Higher Survival Rates**
-   - Passengers under 10 years old showed notably higher survival rates.
+4. Exploratory Analysis
 
-5. **Class and Sex Interaction**
-   - 1st Class Females: **~97%** survival rate
-   - 3rd Class Males: **~15%** survival rate
+The analysis examines the relationship between survival and:
 
-6. **Family Size Influenced Survival**
-   - Passengers traveling alone had lower survival odds compared to those traveling with family members.
+Gender
+Passenger class
+Age
+Family size
+Fare
+Embarkation point
 
-7. **Data Quality and Cleaning**
-   - Age had approximately **20% missing values** and was imputed using the median.
-   - Cabin had approximately **77% missing values** and was removed from the analysis.
+📊 Key Findings
+Overall Survival
+
+Approximately 38% of the 891 passengers in the dataset survived.
+
+Gender
+
+Gender was one of the strongest factors associated with survival:
+
+Female: ~74% survival rate
+Male: ~19% survival rate
+Passenger Class
+
+Survival varied substantially across passenger classes:
+
+Passenger Class	Approx. Survival Rate
+1st Class	~63%
+2nd Class	~47%
+3rd Class	~24%
+Age
+
+Passengers under the age of 10 showed notably higher survival rates compared with several older age groups.
+
+Class × Gender
+
+The interaction between passenger class and gender revealed substantial differences in survival outcomes:
+
+1st-class females: ~97%
+3rd-class males: ~15%
+Family Size
+
+Passengers traveling alone generally had lower survival odds than passengers traveling with family members, demonstrating the importance of examining relationships between multiple variables rather than analyzing features independently.
+
+🧹 Data Quality
+
+Two important data-quality issues were addressed:
+
+Age: approximately 20% missing → median imputation
+Cabin: approximately 77% missing → removed from the primary analysis
+
+These preprocessing decisions were made to improve the usability of the dataset while retaining the majority of relevant observations.
   
    
 ## Visualizations
@@ -55,11 +98,43 @@ This project performs Exploratory Data Analysis (EDA) on the Titanic dataset to 
 ### Correlation Heatmap
 ![Correlation Heatmap](correlation_heatmap.jpg)
   
-## Files
-- titanic_eda_guide1.ipynb : Complete EDA notebook
-- requirements.txt : Required Python libraries
+📁 Repository Contents
+titanic_eda_guide1.ipynb — Complete exploratory data analysis notebook
+requirements.txt — Python dependencies
+survival_by_gender.jpg — Survival analysis visualization
+survival_by_class.jpg — Passenger-class survival visualization
+correlation_heatmap.jpg — Feature correlation visualization
 
-## Future Improvements
+🚀 Getting Started
 
-- Build a Titanic Survival Prediction model using Machine Learning.
-- Compare Logistic Regression and Random Forest performance.
+Clone the repository:
+
+git clone https://github.com/jagtapbhushan254-alt/titanic-exploratory-data-analysis.git
+cd titanic-exploratory-data-analysis
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Launch Jupyter Notebook:
+
+jupyter notebook
+
+Open titanic_eda_guide1.ipynb and run the notebook cells sequentially.
+
+🔮 Future Work
+
+Potential extensions include:
+
+Develop a Titanic survival prediction model
+Compare classification algorithms such as Logistic Regression and Random Forest
+Evaluate models using appropriate classification metrics
+Perform feature engineering and model interpretation
+
+🎓 Skills Demonstrated
+
+Data Analysis: Data Cleaning • Exploratory Data Analysis • Missing-Value Handling • Statistical Analysis
+
+Python: Pandas • NumPy • Matplotlib • Seaborn
+
+Analytical Skills: Pattern Identification • Feature Relationships • Data Visualization • Data Interpretation
