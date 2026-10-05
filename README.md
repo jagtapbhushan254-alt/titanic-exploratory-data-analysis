@@ -1,8 +1,8 @@
-🚢 Titanic — Exploratory Data Analysis
+# 🚢 Titanic — Exploratory Data Analysis
 
 Exploring the factors associated with passenger survival through data cleaning, exploratory analysis, and visualization.
 
-🎯 Project Overview
+### 🎯 Project Overview
 
 This project performs Exploratory Data Analysis (EDA) on the Titanic dataset to identify demographic, socioeconomic, and travel-related factors associated with passenger survival.
 
@@ -10,7 +10,7 @@ The analysis follows a structured data workflow:
 
 Data Understanding → Data Cleaning → Exploratory Analysis → Visualization → Insights
 
-🎯 Objectives
+### 🎯 Objectives
 
 Understand the structure and quality of the Titanic dataset
 Identify factors associated with passenger survival
@@ -18,14 +18,15 @@ Analyze relationships between demographic and socioeconomic variables
 Handle missing and inconsistent data
 Communicate findings through effective data visualizations
 
-🛠️ Technologies & Tools
+### 🛠️ Technologies & Tools
 Category	Technologies
 Programming	Python
 Data Analysis	Pandas, NumPy
 Visualization	Matplotlib, Seaborn
 Environment	Jupyter Notebook
 
-🔎 Analysis Workflow
+## 🔎 Analysis Workflow
+
 1. Data Understanding
 Dataset dimensions and structure
 Data types and descriptive statistics
@@ -39,9 +40,7 @@ Removed Cabin from the primary analysis due to its high proportion of missing va
 Prepared variables for exploratory analysis
 
 3. Exploratory Data Analysis
-
 The analysis examines relationships between survival and:
-
 Gender
 Passenger class
 Age
@@ -50,16 +49,15 @@ Fare
 Embarkation point
 
 4. Data Visualization
-
 Visualizations were used to identify patterns and relationships that may not be immediately apparent from summary statistics.
 
-📊 Key Findings
+## 📊 Key Findings
 
-1. Overall Survival Rate
+### 1. Overall Survival Rate
 
 Approximately 38% of the 891 passengers in the dataset survived.
 
-2. Gender Was a Strong Factor
+### 2. Gender Was a Strong Factor
 
 Survival rates differed substantially by gender:
 
@@ -67,7 +65,7 @@ Gender	Approx. Survival Rate
 Female	~74%
 Male	~19%
 
-3. Passenger Class Had a Major Impact
+### 3. Passenger Class Had a Major Impact
 
 Survival also varied considerably across passenger classes:
 
@@ -76,11 +74,11 @@ Passenger Class	Approx. Survival Rate
 2nd Class	~47%
 3rd Class	~24%
 
-4. Age and Survival
+### 4. Age and Survival
 
 Passengers under 10 years old showed notably higher survival rates compared with several older age groups.
 
-5. Class × Gender Interaction
+### 5. Class × Gender Interaction
 
 Combining multiple variables revealed even larger differences in survival outcomes:
 
@@ -89,13 +87,13 @@ Combining multiple variables revealed even larger differences in survival outcom
 
 This demonstrates the importance of examining interactions between features, rather than analyzing variables independently.
 
-6. Family Size and Survival
+### 6. Family Size and Survival
 
 Passengers traveling alone generally had lower survival odds than passengers traveling with family members.
 
 This suggests that family-related variables can provide additional context when analyzing survival patterns.
 
-🧹 Data Quality & Preprocessing
+## 🧹 Data Quality & Preprocessing
 
 Two major data-quality issues were addressed:
 
@@ -117,7 +115,9 @@ These preprocessing decisions helped maintain the usability of the dataset while
 ### Correlation Heatmap
 ![Correlation Heatmap](correlation_heatmap.jpg)
   
-📁 Repository Structure
+## 📁 Repository Structure
+
+```text
 titanic-exploratory-data-analysis/
 │
 ├── titanic_eda_guide1.ipynb
@@ -126,17 +126,19 @@ titanic-exploratory-data-analysis/
 ├── correlation_heatmap.jpg
 ├── requirements.txt
 └── README.md
+```
 
-🚀 Getting Started
 
-1. Clone the repository
+## 🚀 Getting Started
+
+### 1. Clone the repository
 git clone https://github.com/jagtapbhushan254-alt/titanic-exploratory-data-analysis.git
 cd titanic-exploratory-data-analysis
 
-2. Install dependencies
+### 2. Install dependencies
 pip install -r requirements.txt
 
-3. Launch Jupyter Notebook
+### 3. Launch Jupyter Notebook
 jupyter notebook
 
 Open:
@@ -145,7 +147,7 @@ titanic_eda_guide1.ipynb
 
 and execute the notebook cells sequentially.
 
-🔮 Future Work
+## 🔮 Future Work
 
 Potential extensions of this project include:
 
@@ -154,7 +156,8 @@ Compare Logistic Regression and Random Forest
 Evaluate models using appropriate classification metrics
 Perform additional feature engineering
 Analyze model feature importance and interpretability
-🎓 Skills Demonstrated
+
+## 🎓 Skills Demonstrated
 
 Data Analysis
 Data Cleaning • Exploratory Data Analysis • Missing-Value Handling • Statistical Analysis
@@ -165,6 +168,6 @@ Pandas • NumPy • Matplotlib • Seaborn
 Analytical Skills
 Pattern Identification • Feature Relationships • Data Visualization • Data Interpretation
 
-📌 Project Context
+## 📌 Project Context
 
 This project demonstrates foundational capabilities in data analysis, visualization, and analytical reasoning, supporting my broader interests in Data Analytics, Data Science, Machine Learning, and Information Systems.
